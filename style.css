@@ -1,0 +1,41 @@
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+body {
+  font-family: sans-serif;
+    }
+#footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+}
+#newsletter {
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 78%;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  overflow: hidden;
+  border-radius: 15px;
+}
+  
+#container-content {
+  background-color: #CBFBE7;
+}
+#kiddo {
+  display: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 700px;
+}
+.icon-footer {
+  color: white;
+}
+#logo {
+  height: 120px;
+}

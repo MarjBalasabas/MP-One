@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+      }
+.navbar {
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+  }
+  
+#footer {
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+  }
+.img1 {
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icon-footer {
+    color: white;
+}
+#logo {
+    height: 120px;
+  }

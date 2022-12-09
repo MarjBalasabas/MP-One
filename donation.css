@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+.navbar {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+}
+#footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+}
+.form-section {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
+    border-radius: 4px;
+    padding: 1px;
+}
+.card {
+    background-color: #c6e6d7;
+    border: 3px rgb(255, 255, 255);
+}
+.icon-footer {
+    color: white;
+}
+.donate {
+    font-weight: bolder;
+}
+.wrapper {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+#logo {
+    height: 120px;
+}
