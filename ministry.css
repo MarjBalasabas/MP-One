@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    background: radial-gradient(circle, rgba(215,213,213,1) 0%, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+
       }
 .navbar {
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
@@ -9,9 +11,12 @@ body {
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
   }
 .img1 {
-    width: 50%;
+    width: 35%;
+    height: 60%;
     border-radius: 50%;
     object-fit: cover;
+    display: block;
+    margin-top: 80px;
 }
 .icon-footer {
     color: white;

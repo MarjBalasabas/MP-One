@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(215,213,213,1) 0%, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+
 }
 .navbar {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,252,62,1) 0%, rgba(57,172,201,1) 100%, rgba(0,255,181,1) 100%);
@@ -76,4 +78,51 @@ hr {
 }
 #logo {
     height: 120px;
+}
+.map {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.vision-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(211, 238, 221);
+    padding: 80px, 30px;
+    box-shadow: 0 0 9px rgba(0,0,0 .6);
+    height: 100%;
+}
+.vision-item i {
+    font-size: 43px;
+    margin: 10px;
+}
+.vision-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.vision-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.vision-item hr {
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+}
+.vision-item p {
+    margin-top: 20px;
+}
+.vision-item:hover {
+    background-color: #5fbff9;
+}
+.vision-item:hover i, .vision-item:hover h3, .vision-item:hover p {
+    color: #fff;
+    transition: all 400ms ease-in-out;
+}
+.vision-item:hover hr {
+    background-color: #fff;
+}
+.vision-item:hover i {
+    transform: translateY(-9px);
 }
